@@ -1,0 +1,287 @@
+.cadastro {
+    background: balck;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 50%;
+    height: 90%;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro h1 {
+    font-size: 24px;
+    text-align: center;
+    color: lightblue;
+}
+
+.cadastro h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: lightblue;
+}
+
+.cadastro .main {
+    margin: 5px;
+    padding: 0 20;
+    font-size: 20px;
+    min-width: 80%;
+}
+
+.cadastro .main .l-nome,
+.l-dataNascimento,
+.l-cpf,
+.l-endereco {
+    display: block;
+    margin-top: 20px;
+}
+
+.cadastro .main .l-sexo,
+.l-status {
+    display: block;
+    margin-top: 20px;
+}
+
+.cadastro .main .d-sexoFem,
+.d-sexoMasc,
+.d-sexoOutro,
+.d-status1,
+.d-status2 {
+    size: 10px;
+}
+
+.main input[type="text"],
+input[type="date"] {
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+
+.main input[type="radio"] {
+    align-items: center;
+    height: 16px;
+}
+
+.main .l-sexo1,
+.l-sexo2,
+.l-sexo3,
+.l-status1,
+.l-status2 {
+    margin-right: 10px;
+}
+
+.filtrar input[type="text"] {
+    display: inline-flex;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 96%;
+    align-items: center;
+
+}
+
+.filtrar .d-procurar {
+    display: inline-flex;
+}
+
+.filtrar .d-procurar span{
+    margin-left: 8px;
+    width: auto;
+    height: 30px;
+    color: lightblue;
+    align-items: center;
+}
+
+.main .d-sexoMasc,
+.d-sexoFem,
+.d-sexoOutro {
+    font-size: 12;
+    padding: 5px;
+    display: inline-flex;
+}
+
+.main .d-status1,
+.d-status2 {
+    font-size: 12;
+    padding: 5px;
+    margin: 5px;
+    display: inline-flex;
+}
+
+.main .botoes{
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+
+.main .botoes button{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main .salvar {    
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    align-items: center;
+    background-color: lightblue;
+    color: black;
+    font-size: 18px;
+    font-style: bold;
+    margin-right: 10%;
+}
+
+.main .cancelar {
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    align-items: center;
+    background-color: lightblue;
+    color: black;
+    font-size: 18px;
+    font-style: bold;
+    margin-left: 10%;
+}
+
+.main .salvar .icon-salvar {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.main .cancelar .icon-cancelar{
+    height: 15px;
+    margin-right: 10px;
+}
+
+div table {
+    margin-top: 10px;
+    border: 100px;
+    width: 100%;
+    vertical-align: center;
+
+}
+
+div th {
+    width: 100%;
+    height: 30px;
+    border-right-width: medium;
+    border-right-color: #000;
+    border-right-style: groove;
+    text-align: center;    
+    border: 1px solid black;
+    padding: 4px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    color: black;
+}
+
+div table td{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 12px;
+    color: black;
+    background-color: darkgrey;
+}
+
+div table thead tr .th-nome{
+    width: 20%;
+}
+
+div table thead tr .th-data{
+    width: 10%;
+}
+
+div table thead tr .th-cpf{
+    width: 15%;
+}
+
+div table thead tr .th-sexo{
+    width: 10%;
+}
+
+div table thead tr .th-endereco{
+    width: 20%;
+}
+div table thead tr .th-status{
+    width: 10%;
+}
+div table thead tr .th-editar{
+    width: 5%;
+}
+div table thead tr .th-inativar{
+    width: 5%;
+}
+.d-editar {
+    display: inline-flex;
+    width: 20px;
+    margin: 5px 5px 5px 0px;
+}
+
+.d-inativar {
+    display: inline-flex;
+    margin: 0px 5px 5px 5px;
+}
+
+.d-editar button {
+    background: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;   
+    font-size: 18px;
+    font-style: bold;
+}
+
+.d-editar .icon-editar {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-inativar button {
+    background: none;
+    border: none;
+    margin: 5px;
+    display: inline-flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.d-inativar .icon-inativar {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancelar{
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    align-items: center;
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    font-style: bold;
+    margin: auto;
+    justify-content: center;
+}
+
+.d-cancelarEdit .icon-cancelar{
+    margin-right: 5px;
+}
